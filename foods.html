@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Рейтинг любимых блюд</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; /* Центрируем содержимое внутри body */
+        }
+
+        table {
+            width: 77%;
+            max-width: 1400px; /* Ограничиваем ширину таблицы */
+            margin: 0 auto; /* Центрируем таблицу по горизонтали */
+            border-collapse: collapse;
+            table-layout: fixed; /* Удобно для контроля ширины ячеек */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color:green;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Рейтинг моих любимых блюд</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Название блюда</th>
+            <th>Оценка (1–10)</th>
+            <th>Ссылка на рецепт</th>
+            <th>Фото блюда</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Плов</td>
+            <td>10</td>
+            <td><a href="https://povar.ru/recipes/obychnyi_plov-46535.html " target="_blank">Рецепт плова</a></td>
+            <td><img src="https://img.povar.ru/main-micro/d2/3f/0d/8d/obichnii_plov-327339.jpeg " alt="Плов"></td>
+        </tr>
+        <tr>
+            <td>Шурпа из баранины</td>
+            <td>10</td>
+            <td><a href="https://www.russianfood.com/recipes/bytype/?fid=790 " target="_blank">рецепт шурпы</a></td>
+            <td><img src="https://img1.russianfood.com/dycontent/images_upl/320/sm_319502.jpg" alt="Шурпа"></td>
+        </tr>
+        <tr>
+            <td>Лагман</td>
+            <td>9</td>
+            <td><a href="https://media.halvacard.ru/food/lagman-poshagovye-recepty-prigotovleniya-v-domashnikh-usloviyakh " target="_blank">Рецепт лагмана</a></td>
+            <td><img src="https://halvamedia.sovcombank.ru/shutterstock-1937651824-17223274718uzUn.jpg" alt="Лагман"></td>
+        </tr>
+        <tr>
+            <td>Борщ</td>
+            <td>8</td>
+            <td><a href="https://povar.ru/recipes/samyi_vkusnyi_borsh-57233.html " target="_blank">Рецепт борща</a></td>
+            <td><img src="https://img.povar.ru/main/ab/23/b4/9c/samii_vkusnii_borsh-404089.jpg " alt="Борщ"></td>
+        </tr>
+        <tr>
+            <td>Гороховый суп</td>
+            <td>7</td>
+            <td><a href="https://1000.menu/catalog/gorohovij-sup " target="_blank">Рецепт горохового супа</a></td>
+            <td><img src="https://static.1000.menu/img/content-v2/92/92/79859/sup-goroxovyi-klassicheskii-s-myasom_1699079439_prev_hor.jpg " alt="Гороховый суп"></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
